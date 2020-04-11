@@ -3,7 +3,7 @@ package com.example.demo.model;
 public class Reservation extends BaseEntity<Integer> {
 
     private String reservationNo;
-    private int serviceType;
+    private String serviceType;
     private String clientName;
     private String contactName;
     private String contactTel;
@@ -21,11 +21,11 @@ public class Reservation extends BaseEntity<Integer> {
         this.reservationNo = reservationNo;
     }
 
-    public int getServiceType() {
+    public String getServiceType() {
         return serviceType;
     }
 
-    public void setServiceType(int serviceType) {
+    public void setServiceType(String serviceType) {
         this.serviceType = serviceType;
     }
 
